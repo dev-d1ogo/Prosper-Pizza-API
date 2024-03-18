@@ -14,12 +14,6 @@ Antes de começar, você precisa configurar o ambiente:
 2. **Configuração do Banco de Dados:**
    - Crie um arquivo .env na raiz do projeto e defina as variáveis de ambiente necessárias. Você pode encontrar um exemplo de arquivo .env.example para referência.
    - Certifique-se de utilizar um banco de dados do tipo mySQL ou leia a documentação do Prisma ORM para adaptar ao banco de dados de sua preferência.
-   ## Exemplo para usar um banco postgresql: Altere o provider dentro de `schema.prisma` e a variavel ambiente necessária será do tipo:
-   `DATABASE_URL="postgresql://user:randompassword@localhost:5432/mydb?schema=public"`
-      `datasource db {
-     provider = "postgresql"
-     url      = env("DATABASE_URL")
-   }`
    - Execute as migrações do banco de dados usando `npx prisma migrate dev`.
 
 4. **Inicialização do Servidor:**
