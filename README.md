@@ -1,4 +1,4 @@
-# 🍕 API de Pizzaria 🍕
+# 🍕 API da Prosper Pizzaria 🍕
 
 Bem-vindo à documentação da API da Prosper Pizzaria! Esta API permite interações com usuários e pedidos de pizza. A seguir, são detalhadas instalação e configuração do servidor, as rotas disponíveis e os endpoints correspondentes.
 
