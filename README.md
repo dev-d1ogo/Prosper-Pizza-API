@@ -27,7 +27,7 @@ Esta rota é responsável pela gestão de usuários da pizzaria.
 
 #### Endpoints 🌐
   
-- `GET /users/{id}`
+- `GET /user/{id}`
   - Retorna as informações do usuário com o ID especificado.
 
 - `POST /user/login`
@@ -39,7 +39,7 @@ Esta rota é responsável pela gestão de usuários da pizzaria.
   "password": "123456789",
 }`
 
-- `POST /users/logout`
+- `POST /user/logout`
   - Verifica se o usuario está logado caso esteja remove o cookie de autenticação.
 
 ### 2. /pizza
